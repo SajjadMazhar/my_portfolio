@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, download, resume } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -56,7 +56,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          to="/my_portfolio"
           className="flex items-center gap-2"
           onClick={() => {
             window.scrollTo(0, 0);
@@ -69,6 +69,8 @@ const Navbar = () => {
           </p>
         </Link>
 
+          <a href={resume} download="sajjad_resume" style={{display:"flex"}} target="_blank" rel="noreferrer">Download resume <img width="20px" src={download} alt="" /></a>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
@@ -77,7 +79,7 @@ const Navbar = () => {
                 active === nav.id ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id==="resume"? <Link to="/my_portfolio/resume">{nav.title}</Link>:<a href={`#${nav.id}`}>{nav.title}</a>}
             </li>
           ))}
         </ul>

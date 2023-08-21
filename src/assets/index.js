@@ -39,6 +39,8 @@ import nexus from "./socio.jpg"
 import notes from "./notes.png"
 import weather from "./weather.png"
 import heart from "./heart.jpeg"
+import download from "./download.png"
+import resume from "./resume.pdf"
 
 export {
   logo,
@@ -78,5 +80,7 @@ export {
   nexus,
   notes,
   weather,
-  heart
+  heart,
+  download,
+  resume
 };
