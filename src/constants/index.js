@@ -36,6 +36,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id:"projects",
+    title:"Projects"
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -122,7 +126,7 @@ const technologies = [
 const experiences = [
   {
     title: "Student Mentor",
-    company_name: "NavGurukul",
+    company_name: "NavGurukul - Dharamshala, Himachal Pradesh",
     icon: nav,
     iconBg: "#383E56",
     date: "Dec 2021 - Jun 2022",
@@ -134,7 +138,7 @@ const experiences = [
   },
   {
     title: "SDE - I",
-    company_name: "Phicode Pvt. Ltd.",
+    company_name: "Phicode Pvt Ltd - Bengaluru, Karnataka",
     icon: phicode,
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Present",
