@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -19,8 +19,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Sajjad</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop fullstack web applications,<br className="sm:block hidden" />
-            also knowledgeable in machine learning integration, <br className="sm:block hidden" />committed to delivering innovative and user-centric<br className="sm:block hidden" /> digital solutions.
+          I specialize in transforming creative visions into <br className="sm:block hidden" /> functional realities.
+          My toolbox includes everything <br className="sm:block hidden" /> from front-end magic to the backend wizardry that powers it.<br className="sm:block hidden" />
+          Let's bring your ideas to life, together.
           </p>
         </div>
       </div>

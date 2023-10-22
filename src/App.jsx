@@ -12,6 +12,7 @@ import {
   StarsCanvas,
 } from "./components";
 import Resume from "./components/Resume";
+import { DialogSizes } from "./components/Modal";
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
+          <DialogSizes />
         </div>
         } />
         <Route path="/my_portfolio/resume" element={<Resume />}/>
