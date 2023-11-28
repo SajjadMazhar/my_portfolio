@@ -16,15 +16,15 @@ export function DialogSizes() {
         <>
             
             <div className="flex gap-3">
-                <Button onClick={() => handleOpen("lg")} variant="gradient">
+                <Button onClick={() => handleOpen("xl")} variant="gradient">
                     Open Dialog XL
                 </Button>
             </div>
             <Dialog
                 open={
-                    size === "lg"
+                    size === "xl"
                 }
-                size={"lg"}
+                size={"xl"}
                 handler={handleOpen}
             >
                 <DialogHeader>Its a simple dialog.</DialogHeader>
