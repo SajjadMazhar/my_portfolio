@@ -4,7 +4,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -12,7 +11,6 @@ import {
   StarsCanvas,
 } from "./components";
 import Resume from "./components/Resume";
-import { DialogSizes } from "./components/Modal";
 
 
 const App = () => {
@@ -29,7 +27,6 @@ const App = () => {
           <About />
           <Experience />
           <Tech />
-          <Feedbacks />
           <Works />
           <div className="relative z-0">
             <Contact />
@@ -39,7 +36,6 @@ const App = () => {
         } />
         <Route path="/my_portfolio/resume" element={<Resume />}/>
       </Routes>
-      <DialogSizes />
     </BrowserRouter>
 
   );
