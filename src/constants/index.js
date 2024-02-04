@@ -184,6 +184,143 @@ const testimonials = [
   }
 ];
 
+const skills = [
+  {
+    name:"Frontend",
+    tags:[
+      {
+        name:"HTML",
+        color:"#a83232"
+      },
+      {
+        name:"CSS",
+        color:"#3244a8"
+      },
+      {
+        name:"JavaScript",
+        color:"#a8a632"
+      },
+      {
+        name:"Tailwind",
+        color:"#3273a8"
+      },
+      {
+        name:"React Js",
+        color:"#3273a8"
+      },
+      {
+        name:"Angular",
+        color:"#a83232"
+      },
+      {
+        name:"Three Js",
+        color:"#a3a3a3"
+      },
+    ]
+  },
+  {
+    name:"Backend",
+    tags:[
+      {
+        name:"Node Js",
+        color:"#32a836"
+      },
+      {
+        name:"TypeScript",
+        color:"#3232a8"
+      },
+      {
+        name:"Express Js",
+        color:"#32a83e"
+      },
+      {
+        name:"Flask",
+        color:"#a89c32"
+      },
+      {
+        name:"Socket.io",
+        color:"#a3a3a3"
+      }
+    ]
+  },
+  {
+    name:"Database",
+    tags:[
+      {
+        name:"MongoDB",
+        color:"#32a83e"
+      },
+      {
+        name:"MySQL",
+        color:"#3273a8"
+      },
+      {
+        name:"PostgreSQL",
+        color:"#3273a8"
+      },
+      ,
+      {
+        name:"Redis",
+        color:"#a83232"
+      }
+    ]
+  },
+  {
+    name:"Devops",
+    tags:[
+      {
+        name:"Docker",
+        color:"#3273a8"
+      },
+      {
+        name:"AWS",
+        color:"#a88132"
+      },
+      {
+        name:"GIT",
+        color:"#a3a3a3"
+      }
+    ]
+  },
+  {
+    name:"Other",
+    tags:[
+      {
+        name:"Python",
+        color:"#a89c32"
+      },
+      {
+        name:"Matplotlib",
+        color:"#a89c32"
+      },
+      {
+        name:"Numpy",
+        color:"#a89c32"
+      },
+      {
+        name:"Pandas",
+        color:"#a89c32"
+      },
+      {
+        name:"ScikitLearn",
+        color:"#a89c32"
+      },
+      {
+        name:"Firebase",
+        color:"#a89c32"
+      },
+      {
+        name:"Electron Js",
+        color:"#3273a8"
+      },
+      {
+        name:"Prisma",
+        color:"#a3a3a3"
+      }
+    ]
+  }
+]
+
 const projects = [
   {
     name: "Nexus.point",
@@ -314,4 +451,4 @@ const projects = [
   
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, skills };

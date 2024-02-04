@@ -11,6 +11,7 @@ import {
   StarsCanvas,
 } from "./components";
 import Resume from "./components/Resume";
+import Skills from "./components/Skills";
 
 
 const App = () => {
@@ -24,10 +25,11 @@ const App = () => {
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Hero />
           </div>
-          <About />
-          <Experience />
-          <Tech />
           <Works />
+          <Skills />
+          {/* <About /> */}
+          <Tech />
+          <Experience />
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
